@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RemoveBG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- <img src="img.png" id="myImg">
+	<canvas id="myCanvas"></canvas>
+	<canvas id="result"></canvas>
+	<img src="" id="resultImg"> -->
+	<img src="" id="resultImg">
+	<script type="text/javascript" src="script.js"></script>
+	<script>
+		erase("img.png",[255,255,255],20).then((text)=>{
+			document.getElementById("resultImg").src=text;	
+		}).catch(()=>{
+			console.log("Error");
+		});
+	</script>
+</body>
+</html>

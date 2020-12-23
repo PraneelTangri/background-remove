@@ -1,0 +1,6 @@
+body{
+	background-color: #00f;
+}
+#myCanvas , #result{
+	display: none;
+}
